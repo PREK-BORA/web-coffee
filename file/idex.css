@@ -1,31 +1,18 @@
-/* --- Global Reset & Style Theme Overrides --- */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Georgia', 'Times New Roman', serif; /* Keeps your cozy café text style */
+    font-family: 'Georgia', 'Times New Roman', serif; 
     scroll-behavior: smooth;
 }
 
-:root {
-    /* Updated background colors to match your design screenshot perfectly */
-    --bg-cream-light: #f5ece1; 
-    --bg-card: #fcf8f4;
-    --text-dark: #222222;
-    --text-muted: #777777;
-    --accent-gold: #c5a880;
-    --black-btn: #1c1c1c;
-    --primary-dark: #3e2723;   /* Retained from your old code for header styling */
-    --accent-color: #b9935a;   /* Retained from your old code */
-}
 
 body {
-    background-color: var(--bg-cream-light);
-    color: var(--text-dark);
+    background-color: #f5ece1;
+    color: #222222;
     line-height: 1.5;
 }
-
-/* Adjust headings back to standard font for clean look */
 h1, h2, h3, .logo, .btn-primary,  .section-title {
     font-family: 'Helvetica Neue', Arial, sans-serif;
 }
@@ -40,7 +27,7 @@ h1, h2, h3, .logo, .btn-primary,  .section-title {
 .separator {
     width: 50px;
     height: 3px;
-    background-color: var(--accent-color);
+    background-color:#b9935a;
     border: none;
     margin: 15px auto 30px;
 }
@@ -53,14 +40,11 @@ h1, h2, h3, .logo, .btn-primary,  .section-title {
     color: #2c2520;
     margin-bottom: 25px;
 }
-
-
-/* --- Navigation Bar (Preserved from your old code) --- */
 .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: var(--primary-dark);
+    background-color: #3e2723;
     padding: 20px 40px;
     position: sticky;
     top: 0;
@@ -75,7 +59,7 @@ h1, h2, h3, .logo, .btn-primary,  .section-title {
 }
 
 .navbar .logo span {
-    color: var(--accent-color);
+    color:#b9935a;
 }
 
 .nav-links {
@@ -97,10 +81,8 @@ h1, h2, h3, .logo, .btn-primary,  .section-title {
 }
 
 .nav-links a:hover {
-    color: var(--accent-color);
+    color: #b9935a;
 }
-
-/* --- Home / Hero Section (Preserved from your old code) --- */
 .hero-section {
     background: linear-gradient(rgba(56, 25, 20, 0.8), rgba(46, 29, 26, 0.8)), 
                 url('/image/photo-background.avif') ;
@@ -128,7 +110,7 @@ h1, h2, h3, .logo, .btn-primary,  .section-title {
 
 .btn-primary {
     display: inline-block;
-    background-color: var(--accent-color);
+    background-color: #b9935a;
     color: #ffffff;
     padding: 12px 35px;
     text-decoration: none;
@@ -139,23 +121,20 @@ h1, h2, h3, .logo, .btn-primary,  .section-title {
 
 .btn-primary:hover {
     background-color: #ffffff;
-    color: var(--primary-dark);
+    color: #3e2723;
     cursor: pointer;
 }
 
-/* --- About Section (Preserved from your old code) --- */
 .about-section {
     background-color: #ffffff;
 }
 
 .about-section p {
     font-size: 1.15rem;
-    color: #5c4541; /* Matches your old text-light color rules */
+    color: #5c4541; 
     max-width: 750px;
     margin: 0 auto;
 }
-
-/* --- NEW: Category Tabs System --- */
 .category-tabs {
     display: flex;
     justify-content: center;
@@ -196,10 +175,8 @@ h1, h2, h3, .logo, .btn-primary,  .section-title {
     width: 100%;
    
 }
-
-/* --- NEW: Product Cards Display --- */
 .product-card {
-    background: var(--bg-card);
+    background: #fcf8f4;
     border-radius: 12px;
     overflow: hidden;
     width: 100%;
@@ -208,10 +185,11 @@ h1, h2, h3, .logo, .btn-primary,  .section-title {
     text-align: left;
     display: flex;
     flex-direction: column;
-     transition: transform 0.3s , box-shadow 0.3s ;
+    transition: transform 0.3s , box-shadow 0.3s ;
+    
 }
 .product-card:hover{
-     transform: translateY(-5px);
+    transform: translateY(-5px);
     box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
 }
 
@@ -221,7 +199,6 @@ h1, h2, h3, .logo, .btn-primary,  .section-title {
     background-position: center;
 }
 
-/* Stock image selectors assigned to your menu components */
 .bg-Lemon { background-image: url('/image/lamon\ tea1.jpg'); }
 .bg-Lemon2 { background-image: url('/image/lemon\ 2.jpg'); }
 .bg-Machar { background-image: url(/image/macha\ 1.jpg); }
@@ -251,7 +228,7 @@ h1, h2, h3, .logo, .btn-primary,  .section-title {
 
 .card-info .desc {
     font-size: 0.8rem;
-    color: var(--text-muted);
+    color: #777777;
     line-height: 1.4;
     margin-bottom: 15px;
     flex-grow: 1;
@@ -271,7 +248,7 @@ h1, h2, h3, .logo, .btn-primary,  .section-title {
 }
 
 .order-btn {
-    background-color: var(--black-btn);
+    background-color: #1c1c1c;
     color: #ffffff;
     font-size: 0.75rem;
     font-weight: 600;
@@ -294,8 +271,6 @@ h1, h2, h3, .logo, .btn-primary,  .section-title {
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
     font-size: 32px;
-   
-  
 }
 .section-title2{
     font-size: 18px;
@@ -333,7 +308,7 @@ h1, h2, h3, .logo, .btn-primary,  .section-title {
 
 /* ---  Customers ------------------------------------ */
 .testimonials-section {
-    background-color: var(--bg-card);
+    background-color: #fcf8f4;
     padding: 60px 0;
 }
 .testimonial-grid {
@@ -389,8 +364,6 @@ h1, h2, h3, .logo, .btn-primary,  .section-title {
     color: #555555;
     line-height: 1.5;
 }
-
-/* --- NEW: Coffee Bean Middle Banner Section --- */
 .beans-banner {
     background: linear-gradient(rgba(245, 236, 225, 0.4), rgba(109, 90, 66, 0.4)), 
                 url('/image/background2.avif') no-repeat center center/cover;
@@ -405,14 +378,13 @@ h1, h2, h3, .logo, .btn-primary,  .section-title {
 
 /* --- Footer------------------------------------------------------------------------ --- */
 footer {
-    background-color: var(--primary-dark);
+    background-color: #3e2723;
     color: #ffffff;
     text-align: center;
     padding: 30px 20px;
     font-size: 0.9rem;
 }
 
-/* --- Responsive Adjustments (Merged & Optimized) --- */
 @media (max-width: 768px) {
     .navbar {
         flex-direction: column;
@@ -452,7 +424,6 @@ footer {
         letter-spacing: 1px;
     }
 }
-/* ---------- Small Mobile (≤480px) ---------- */
 @media (max-width: 480px) {
     .section-title {
         font-size: 24px;
