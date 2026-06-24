@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior:smooth;
 }
 
 body {
@@ -66,6 +67,7 @@ h1, h2, h3, .logo, .btn-primary, .btn-submit, .section-title {
 
 .navbar .logo span {
     color: #b9935a;
+    padding:0 5px;
 }
 
 .button {
@@ -105,7 +107,7 @@ h1, h2, h3, .logo, .btn-primary, .btn-submit, .section-title {
     color: #b9935a;
 }
 
-/* --- Category Tabs System (Fixed Alignment) --- */
+/* --- Category---------------------------------- --- */
 .category-tabs {
     display: flex;
     justify-content: center;
@@ -128,37 +130,21 @@ h1, h2, h3, .logo, .btn-primary, .btn-submit, .section-title {
     border-bottom: 2px solid transparent;
     padding-bottom: 8px;
 }
-
-.category-tabs .tab.active, .category-tabs .tab:hover {
-    opacity: 1;
-}
-
 .category-tabs .tab.active p {
     font-weight: 700;
-    color: #1c1c1c;
+    color: #090a0ae6;
 }
 
 .tab-icon {
     font-size: 1.8rem;
     display: block;
     margin-bottom: 8px;
-    line-height: 1;
 }
 
 .category-tabs p {
     font-size: 0.9rem;
     font-weight: 600;
-    color: #222222;
-}
-
-/* --- Slider & Grid Mechanics --- */
-.slider-wrapper {
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    padding: 0 40px;
+    color: #090a0ae6;
 }
 
 .product-grid {
@@ -195,7 +181,6 @@ h1, h2, h3, .logo, .btn-primary, .btn-submit, .section-title {
     background-position: center;
 }
 
-/* Background image urls matching your live workspace rendering */
 .bg-Hot { background-image: url('../image/cold1.jpg'); }
 .bg-Hot1 { background-image: url('../image/hot2.jpg'); }
 .bg-Hot2 { background-image: url('../image/hot3.jpg'); }
@@ -266,7 +251,7 @@ h1, h2, h3, .logo, .btn-primary, .btn-submit, .section-title {
     margin-top: auto;
 }
 
-.card-footer .price {
+ .price {
     font-size: 1rem;
     font-weight: 700;
     color: red;
@@ -281,103 +266,14 @@ h1, h2, h3, .logo, .btn-primary, .btn-submit, .section-title {
     border: none;
     border-radius: 6px;
     cursor: pointer;
-    transition: background-color 0.2s ease;
 }
 
 .order-btn:hover {
     background-color: #b9935a;
+    transition: 0.2s ease;
 }
 
-/* --- Carousel Arrow Buttons (Positioned Perfectly Outside) --- */
-.arrow-btn {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    background: white;
-    border: 1px solid #e2e2e2;
-    width: 36px;
-    height: 36px;
-    border-radius: 50%;
-    cursor: pointer;
-    font-size: 0.85rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.06);
-    z-index: 10;
-    transition: all 0.2s ease;
-}
-
-.arrow-btn:hover {
-    background-color: #fcf8f4;
-    transform: translateY(-50%) scale(1.05);
-}
-
-.left-arrow { left: 0px; }
-.right-arrow { right: 0px; }
-
-/* --- Isolated Pages Setup (Menu & About standalone adjusters) --- */
-.menu-page-main, .about-page-main {
-    padding: 40px 0;
-    min-height: 80vh;
-}
-
-/* --- About & Developer Profile Layouts --- */
-.about-wrapper {
-    display: flex;
-    gap: 40px;
-    justify-content: center;
-    align-items: stretch;
-    flex-wrap: wrap;
-    margin-top: 20px;
-}
-
-.about-box {
-    background: #ffffff;
-    border: 1px solid #eee7de;
-    border-radius: 12px;
-    padding: 30px;
-    flex: 1;
-    min-width: 300px;
-    max-width: 500px;
-    text-align: left;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.02);
-}
-
-.about-box h3 {
-    font-size: 1.3rem;
-    color: #3e2723;
-    margin-bottom: 15px;
-    border-bottom: 2px solid #c5a880;
-    padding-bottom: 8px;
-    display: inline-block;
-}
-
-.about-box p {
-    font-size: 0.95rem;
-    color: #5c4541;
-    line-height: 1.6;
-}
-
-.developer-box { text-align: center; }
-
-.developer-image {
-    width: 120px;
-    height: 120px;
-    border-radius: 50%;
-    overflow: hidden;
-    margin: 0 auto 15px;
-    border: 3px solid #c5a880;
-    background-color: #e0e0e0;
-}
-
-.developer-image img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-/* --- Middle Call-To-Action Banner --- */
+/* ---  Banner------------------------------------------------- --- */
 .beans-banner {
     background: linear-gradient(rgba(245, 236, 225, 0.45), rgba(245, 236, 225, 0.45)), 
                 url('../image/background2.avif') no-repeat center center/cover;
@@ -390,12 +286,6 @@ footer {
     text-align: center;
     padding: 30px 20px;
     font-size: 0.9rem;
-}
-
-/* --- Responsive Adjustments --- */
-@media (max-width: 992px) {
-    .arrow-btn { display: none; }
-    .slider-wrapper { padding: 0; }
 }
 
 @media (max-width: 768px) {

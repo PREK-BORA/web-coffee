@@ -4,7 +4,6 @@
     box-sizing: border-box;
 }
  body{
-    overflow-x: hidden;
     width: 100%;
     max-width: 100%;
     min-width: 320px;
@@ -30,7 +29,7 @@
     padding: 20px 40px;
     position: sticky;
     top: 0;
-    z-index: 1000;
+
 }
 
 .navbar .logo {
@@ -42,6 +41,7 @@
 
 .navbar .logo span {
     color: #b9935a;
+    padding: 0 5px;
 }
 
 .button{

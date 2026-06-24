@@ -46,11 +46,11 @@ h1, h2, h3, .logo, .btn-primary,  .section-title {
     background-color: #3e2723;
     padding: 20px 40px;
     position: sticky;
-    top: 0;
     z-index: 1000;
 }
 
 .navbar .logo {
+    
     color: #ffffff;
     font-size: 1.6rem;
     font-weight: 700;
@@ -59,6 +59,7 @@ h1, h2, h3, .logo, .btn-primary,  .section-title {
 
 .navbar .logo span {
     color:#b9935a;
+    padding: 0 5px;
 }
 
 .nav-links {
@@ -304,6 +305,12 @@ h1, h2, h3, .logo, .btn-primary,  .section-title {
 .service{
     scroll-margin-top: 80px;
 }
+.bi{
+    font-size: 2.5rem;
+    color: #b9935a;
+    
+}
+
 
 /* ---  Customers ------------------------------------ */
 .testimonials-section {
@@ -344,11 +351,11 @@ h1, h2, h3, .logo, .btn-primary,  .section-title {
     background-size: cover;
 }
 .img-reviewer1 { background-image: url('../image/photo_2026-03-02_09-22-18.jpg'); }
-.img-reviewer2 { background-image: url('../image/IMG_3946\ copy\ 2.jpg'); }
-.img-reviewer3 { background-image: url('../image/photo_2026-06-18_13-55-02.jpg'); }
+.img-reviewer2 { background-image: url('../image/photo_2025-09-18_17-50-32\ seth.jpg'); }
+.img-reviewer3 { background-image: url('../image/photo_2026-06-24_10-06-42\ sal.jpg'); }
 
 .reviewer-profile h4 { font-size: 0.95rem; font-weight: 700; }
-.reviewer-profile .role { font-size: 0.75rem; color: var(--text-muted); }
+.reviewer-profile .role { font-size: 0.75rem; color: #564949; }
 
 .stars {
     position: absolute;
