@@ -197,19 +197,19 @@ h1, h2, h3, .logo, .btn-primary,  .section-title {
     background-position: center;
 }
 
-.bg-Lemon { background-image: url('/image/lamon\ tea1.jpg'); }
-.bg-Lemon2 { background-image: url('/image/lemon\ 2.jpg'); }
-.bg-Machar { background-image: url(/image/macha\ 1.jpg); }
-.bg-Green{ background-image: url('/image/Green\ Tea1.jpg'); }
-.bg-lungo { background-image: url(/image/photo-1514432324607-a09d9b4aefdd.avif); }
-.bg-dalgona { background-image: url('/image/cold1.jpg'); }
-.bg-iced { background-image: url('/image/hot2.jpg'); }
-.bg-filter { background-image: url('/image/hot\ 4.jpg'); }
+.bg-Lemon { background-image: url('../image/lamon\ tea1.jpg'); }
+.bg-Lemon2 { background-image: url('../image/lemon\ 2.jpg'); }
+.bg-Machar { background-image: url(../image/macha\ 1.jpg); }
+.bg-Green{ background-image: url('../image/Green\ Tea1.jpg'); }
+.bg-lungo { background-image: url(../image/photo-1514432324607-a09d9b4aefdd.avif); }
+.bg-dalgona { background-image: url('../image/cold1.jpg'); }
+.bg-iced { background-image: url('../image/hot2.jpg'); }
+.bg-filter { background-image: url('../image/hot\ 4.jpg'); }
 
-.bg-gulab { background-image: url('/image/bread7.jpg'); }
-.bg-tiramisu { background-image: url('/image/bread2.jpg'); }
-.bg-churros { background-image: url('/image/bread3.jpg'); }
-.bg-lamingtons { background-image: url('/image/bred44.jpg'); }
+.bg-gulab { background-image: url('../image/bread7.jpg'); }
+.bg-tiramisu { background-image: url('../image/bread2.jpg'); }
+.bg-churros { background-image: url('../image/bread3.jpg'); }
+.bg-lamingtons { background-image: url('../image/bred44.jpg'); }
 
 .card-info {
     padding: 15px;
@@ -344,7 +344,7 @@ h1, h2, h3, .logo, .btn-primary,  .section-title {
 }
 .img-reviewer1 { background-image: url('/image/photo_2026-03-02_09-22-18.jpg'); }
 .img-reviewer2 { background-image: url('/image/IMG_3946\ copy\ 2.jpg'); }
-.img-reviewer3 { background-image: url('/image/photo-1514432324607-a09d9b4aefdd.avif'); }
+.img-reviewer3 { background-image: url('../image/photo_2026-06-18_13-55-02.jpg'); }
 
 .reviewer-profile h4 { font-size: 0.95rem; font-weight: 700; }
 .reviewer-profile .role { font-size: 0.75rem; color: var(--text-muted); }

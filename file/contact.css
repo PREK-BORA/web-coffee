@@ -9,14 +9,10 @@
     max-width: 100%;
     min-width: 320px;
 }
-:root {
-    --primary-dark: #3e2723;
-    --accent-color: #b9935a;
-}
 
-/* Contact Section */
+/* Contact Section -------------------------------------------------------------------*/
 .contact-section {
-    background-image: url(/image/photo-background.avif);
+    background-image: url(../image/photo-background.avif);
     background-color: #cea4a4;
     background-size: cover;
     background-position: center;
@@ -25,12 +21,12 @@
     padding-bottom: 50px;
 }
 
-/* Navbar */
+/* Navbar ------------------------------------------------------------------------------*/
 .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: var(--primary-dark);
+    background-color: #3e2723;
     padding: 20px 40px;
     position: sticky;
     top: 0;
@@ -45,7 +41,7 @@
 }
 
 .navbar .logo span {
-    color: var(--accent-color);
+    color: #b9935a;
 }
 
 .button{
@@ -64,7 +60,7 @@
     transition: 0.3s;
 }
 
-/* Section Title */
+/* Section Title -----------------------------------------------------------------------------*/
 .section-title {
     display: flex;
     justify-content: center;
@@ -74,7 +70,7 @@
     padding: 25px;
 }
 
-/* Form */
+/* Form ------------------------------------------------------------------*/
 .contact-form {
     max-width: 600px;
     width: 90%;
@@ -126,7 +122,7 @@
     transition: 0.3s;
 }
 
-/* Footer */
+/* Footer ----------------------------------------------------*/
 footer {
     background-color: #5c4541;
     color: #ffffff;
@@ -135,7 +131,7 @@ footer {
     font-size: 0.9rem;
 }
 
-/* Tablet */
+/* Tablet------------------------------------------------- */
 @media (max-width: 768px) {
 
     .navbar {
@@ -159,7 +155,7 @@ footer {
     }
 }
 
-/* Mobile */
+/* Mobile -------------------------------------------------------*/
 @media (max-width: 480px) {
 
     .navbar .logo {
