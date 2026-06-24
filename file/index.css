@@ -342,8 +342,8 @@ h1, h2, h3, .logo, .btn-primary,  .section-title {
     border-radius: 50%;
     background-size: cover;
 }
-.img-reviewer1 { background-image: url('/image/photo_2026-03-02_09-22-18.jpg'); }
-.img-reviewer2 { background-image: url('/image/IMG_3946\ copy\ 2.jpg'); }
+.img-reviewer1 { background-image: url('../image/photo_2026-03-02_09-22-18.jpg'); }
+.img-reviewer2 { background-image: url('../image/IMG_3946\ copy\ 2.jpg'); }
 .img-reviewer3 { background-image: url('../image/photo_2026-06-18_13-55-02.jpg'); }
 
 .reviewer-profile h4 { font-size: 0.95rem; font-weight: 700; }
